@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>ONE Changeller one</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylado.css">
+        <script src="encriptar.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Logoreflejo.png" class="logo">
+            <p class="subTitulo">Herramienta que te ayuda a encriptar un mensaje</p>
+        </header>
+
+        <main>
+            <section>
+                <div id="mens-original">
+                    <textarea type="text" placeholder="Escribe el mensaje a Encriptar" id="menOriginal" cols="50" rows="15"></textarea>
+                </div>
+                <div id="mens-encriptado">
+                    <h2 id="imagen"><img src="imagenes/imagenPequemili.png"> </h2>
+                    <textarea id="input-manEncriptado">No ha escrito ningún mensaje</textarea>
+                    <input id="copiar" type="button" value="Copiar" onclick="copiarMensaje()">
+                    <input id="borrar" type="button" value="Borrar" onclick="borrarMensaje()">
+                </div>
+            </section>
+            <div class="botones">
+                <p class="aviso">&#9888 Solo letras minisculas y sin acentos</p>
+                <input id="botonUno" onclick="encriptarMensaje()" type="submit" value="Encriptar"> 
+                <input id="botonDos" onclick="desencriptarMensaje()" type="submit" value="DesEncriptar">
+            </div>
+        </main>
+
+        <footer>
+            <p class="desarrollador"> Creado por: Daniela T. Correa, de Venezuela.<br>
+                &#9917 Entrenadora voluntaria de futbol base, apasionada de la programación <br> no importa la edad cuando es tu sueño &#129665</p>
+        </footer>
+    </body>
+    
+</html>

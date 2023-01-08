@@ -1,0 +1,165 @@
+body{
+    background: linear-gradient(to bottom, #7a599c, #d2b4f0 55%, #7a599c 85%);
+    display: inline-block;
+    position: relative;
+}
+
+main {
+    display: inline-block;
+    width: 940px;
+}
+
+.logo {
+    margin: 10px 0 0 20px;
+    float: left;
+}
+
+.subTitulo {
+    width: 940px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #d2b4f0;
+    margin-left: 30px;
+    clear: left;
+}
+
+section {
+    display: inline-flex;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#menOriginal {
+    margin: 50px 70px 0 0;
+    width: max-content;
+    display: inline;
+    font-family: monospace;
+    color: #4d1e31;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+#mens-encriptado {
+    position: relative;
+    background: linear-gradient(to bottom, #a873d1, #2f094d 55%, #a873d1 75%);
+    display: block;
+    width: 280px;
+    height: 470px;  
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px #4d1e31;
+}
+
+#mens-encriptado:hover {
+    border: 2px groove #4d1e31;
+    
+}
+
+#imagen {
+    float: inline-start;
+    margin: 60px 0 0 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#input-manEncriptado {
+    width: 220px;
+    height: auto;
+    font-family: monospace;
+    color: #4d1e31;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 5px;
+    background: transparent;
+    margin: 60px 20px 70px 25px;
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    color: #4d1e31;
+}
+
+section #menOriginal:active {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+#input-manEncriptado:active {  
+    outline: none;
+    border: none;
+}
+
+#copiar, #borrar {
+    margin-left: 45px;
+    position: relative;
+    display: inline-block;
+    background: #2f094d;
+    color: #ade5f0;
+    border: 2px solid #ade5f0;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 15px;
+}
+
+#copiar:hover, #borrar:hover {
+    background-color: #7a599c;
+    font-weight: bold;
+    color: #2f094d;
+}
+
+.botones p {
+    margin-left: 5%;
+    color: #2f094d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.botones input {
+    margin: 5px 5px 50px 40px;
+    padding: 10px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#botonUno {
+   background: #ade5f0;
+   color: #2f094d;
+   border: 2px solid #2f094d;
+}
+
+#botonDos {
+    background: #2f094d;
+    color: #ade5f0;
+    border: 2px solid #ade5f0;
+}
+
+#botonUno:hover {
+    background-color: #92cbd6;
+    font-weight: bold;
+}
+
+#botonDos:hover {
+    background-color: #541785;
+    font-weight: bold;
+}
+
+footer {
+    background: #7a599c;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #2f094d;
+}

@@ -11,6 +11,7 @@ function ocultarImagen() {
     document.getElementById("imagen").style.display = "none";
 }
 
+
 function mostrarImagen() {
     document.getElementById("imagen").style.display = "inherit";
 }

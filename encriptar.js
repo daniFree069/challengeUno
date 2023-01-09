@@ -11,6 +11,10 @@ function ocultarImagen() {
     document.getElementById("imagen").style.display = "none";
 }
 
+function mostrarImagen() {
+    document.getElementById("imagen").style.display = "inherit";
+}
+
 function encriptarMensaje() {
     ocultarImagen();
     textoUno = document.getElementById("menOriginal").value;
@@ -49,5 +53,5 @@ function copiarMensaje() {
 function borrarMensaje() {
     document.getElementById("input-manEncriptado").value = " ";
     document.getElementById("menOriginal").value = " ";
-    document.getElementById("imagen").style.display = img;
+    mostrarImagen();
 }
